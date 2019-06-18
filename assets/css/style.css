@@ -1,0 +1,18 @@
+body{
+background: url("images/confetti.jpg");
+background-size: 100%;
+}
+
+.container{
+    align-self: absolute;
+    background-color: rgb(154, 243, 146);
+    margin: 30px 30px 30px 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+button{
+    align-self: absolute;
+    color: blue;
+    background-color: white;
+}
