@@ -17,9 +17,12 @@ function start() {
 
     if (number === 0) {
       stop();
-      alert("Time Up!");
+      alert("Time's Up!");
+      $("#questions").hide();
     }
   }
+
+ 
 
   function stop() {
     clearInterval(intervalId);
